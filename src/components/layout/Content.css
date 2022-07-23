@@ -1,0 +1,10 @@
+.Content {
+    text-align: center;
+    padding: 25px;
+    height:35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
