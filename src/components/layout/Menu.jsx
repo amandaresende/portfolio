@@ -5,18 +5,12 @@ import { Link } from 'react-router-dom'
 
 const Menu = props => (
     <header className="Menu">
+        <h1 className="titulo">Amanda Resende</h1>
         <nav>
-            <ul>
-                <li>
-                    <Link to="/home"> Início </Link>
-                </li>
-                <li>
-                    <Link to="/about"> Sobre </Link>
-                </li>
-                <li>
-                    <Link to="/projects"> Projetos </Link>
-                </li>
-            </ul>
+            <Link to="/home"> Início </Link>
+            <Link to="/about"> Sobre </Link>
+            <Link to="/habilidades"> Habilidades </Link>
+            <Link to="/projects"> Projetos </Link>
         </nav>
     </header>
 )

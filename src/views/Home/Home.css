@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+.home {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.img-home {
+    width: 488px;
+    height: 488px;
+}
+
+.text-home {
+    display: flex;
+    flex-direction: column;
+    width: 488px;
+    height: 488px;
+    justify-content: center;
+}
+
+.text-home h1,h2 {
+    color: rgb(255, 255, 255);
+}
+
+.text-home h2 {
+    font-weight: 100;
+}

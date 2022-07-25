@@ -1,42 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    text-decoration:none;
+}
+
+.titulo{
+    margin-right: 400px;
+    font-family: 'Sarala', sans-serif;
+    color:beige;
+    font-weight:300;
+    font-size:22px;
+}
+
 .Menu {
-    display: block;
-    border-radius: 30px;
-    flex-basis: 100%;
-    width: 80%;
-    margin-inline:auto ;
-    margin-top: 30px;
-    background: rgba(255, 255, 255, 0.16);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.1px);
-    -webkit-backdrop-filter: blur(6.1px);
-    border: 1px solid rgba(255, 255, 255, 0.15)
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.Menu nav a {
+    font-family: 'Sarala', sans-serif;
+    color:beige;
+    font-weight:400;
+    font-size:18px;
 }
 
 .Menu nav {
-    flex-grow: 1;
+    display:flex;
+    gap:32px;
 }
 
-.Menu ul {
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    padding: 0;
-}
-
-.Menu li {
-    display: flex;
-}
-
-.Menu li a {
-    flex: 1;
-    padding: 10px;
-    margin-bottom: 10px;
-
-    text-decoration: none;
-    color: #070606;
-    font-size: 1.5rem;
-}
-
-.Menu li a:hover {
+.Menu nav a:hover {
     background: #3f3e3e20;
 }
