@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Righteous&family=Sarala:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Righteous&family=Sarala:wght@400;700&display=swap');
 .home {
     margin-top: 100px;
     display: flex;
@@ -19,12 +18,15 @@
     width: 488px;
     height: 488px;
     justify-content: center;
-}
 
-.text-home h1,h2 {
     color: rgb(255, 255, 255);
 }
-
-.text-home h2 {
-    font-weight: 100;
+.first-text{
+    font-size: 25px;
 }
+
+.second-text{
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+

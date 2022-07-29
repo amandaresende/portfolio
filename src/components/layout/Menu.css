@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Righteous&family=Sarala:wght@400;700&display=swap');
 
-*{
-    text-decoration:none;
+* {
+    text-decoration: none;
 }
 
-.titulo{
+.titulo {
     margin-right: 400px;
     font-family: 'Sarala', sans-serif;
-    color:beige;
-    font-weight:300;
-    font-size:22px;
+    color: beige;
+    font-weight: 300;
+    font-size: 22px;
 }
 
 .Menu {
@@ -22,14 +22,14 @@
 
 .Menu nav a {
     font-family: 'Sarala', sans-serif;
-    color:beige;
-    font-weight:400;
-    font-size:18px;
+    color: beige;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .Menu nav {
-    display:flex;
-    gap:32px;
+    display: flex;
+    gap: 32px;
 }
 
 .Menu nav a:hover {

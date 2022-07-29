@@ -5,9 +5,9 @@ import { ReactComponent as Girl } from '../../assets/image/girl.svg'
 const Home = props => (
     <div className="home">
         <div className="text-home">
-            <h1> Olá, meu nome é</h1>
-            <h2>Amanda</h2>
-            
+            <span className="first-text">Olá, meu nome é</span>
+            <span className="second-text">Amanda</span>
+            <h1> </h1>
         </div>
         <div><Girl className="img-home" /></div>
     </div>

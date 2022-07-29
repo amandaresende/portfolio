@@ -1,14 +1,15 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(68.15deg, #705cba 16.62%, #a32e86d0 85.61%)
+    background: linear-gradient(to top, #c2d0da, #575292); 
+    height: 1000px;
 }
+
 
 .text {
     font-weight: 300;
     font-size: 5rem;
 }
-
 
 .input {
     font-weight: 300;
