@@ -1,0 +1,20 @@
+.text-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Sarala';
+    font-size: 40px;
+    padding: 90px;
+    padding-top: 60px;
+}
+.first-text-contact{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.second-text-contact{
+    margin-top:5px;
+}
