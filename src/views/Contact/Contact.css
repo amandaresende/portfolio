@@ -15,6 +15,11 @@
     text-align: center;
 }
 
-.second-text-contact{
+.text-about-name{
     margin-top:5px;
+}
+
+.h1{
+    text-align: center;
+    font-size:40px;
 }

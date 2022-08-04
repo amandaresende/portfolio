@@ -1,0 +1,39 @@
+.text-principal {
+    color: rgb(255, 255, 255);
+    font-family: 'Sarala';
+    text-align: center;
+    padding: 45px;
+    padding-top: 10px;
+}
+
+.content-skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+}
+
+.background {
+
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+    background-color: #fff;
+    color: #000;
+    padding: 60px 60px 60px 60px;
+
+}
+
+.icon-skills {
+    display: flex;
+}
+
+.text-skill{
+    color: rgb(255, 255, 255);
+    text-align:justify;
+    font-family: 'Sarala';
+    margin: 15px;
+    padding:25px;
+}
