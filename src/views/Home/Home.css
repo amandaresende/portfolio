@@ -13,7 +13,7 @@
 }
 
 .text-home {
-    display: flex;
+    display: block;
     flex-direction: column;
     width: 488px;
     height: 488px;
@@ -22,11 +22,16 @@
     color: rgb(255, 255, 255);
 }
 .first-text{
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .second-text{
     font-size: 80px;
     font-family: 'Roboto', sans-serif;
+}
+
+.text-typing{
+    position: fixed;
+    font-size:60px
 }
 

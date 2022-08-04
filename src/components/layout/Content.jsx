@@ -7,7 +7,6 @@ import About from '../../views/About/About';
 import Home from '../../views/Home/Home';
 import Projects from '../../views/Projects/Projects';
 import Skills from '../../views/Skills/Skills';
-import Contact from '../../views/Contact/Contact';
 
 const Content = props => (
     <main className="Content">
@@ -17,7 +16,6 @@ const Content = props => (
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/skills" element={<Skills />} />
-            <Route path="/contact" element={<Contact />} />
         </Routes>
     </main>
 );

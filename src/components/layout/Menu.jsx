@@ -11,7 +11,6 @@ const Menu = props => (
             <Link to="/about"> Sobre </Link>
             <Link to="/projects"> Projetos </Link>
             <Link to="/skills"> Skills </Link>
-            <Link to="/contact"> Contato </Link>
         </nav>
     </header>
 )

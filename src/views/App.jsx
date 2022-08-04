@@ -5,6 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 import Menu from '../components/layout/Menu'
 import Content from '../components/layout/Content'
+import Footer from '../components/Footer/Footer'    
 
 
 const App = props => (
@@ -12,6 +13,7 @@ const App = props => (
         <BrowserRouter>
             <Menu />
             <Content />
+            <Footer/>
         </BrowserRouter>
     </div>
 )
