@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .home {
     margin-top: 100px;
-    display: flex;
+    
     flex-direction: row;
-    justify-content: space-around;
+    
     width: 100%;
+    
 }
 
 .img-home {
@@ -13,25 +16,44 @@
 }
 
 .text-home {
+    padding-top:10%;
     display: block;
-    flex-direction: column;
-    width: 488px;
+        width: 488px;
     height: 488px;
     justify-content: center;
 
-    color: rgb(255, 255, 255);
+    color: #79A7D6;
+}
+
+.text-home-second{
+    
 }
 .first-text{
-    font-size: 35px;
+    padding-top: 100px;
+    font-size: 27px;
+    margin-left: 10px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .second-text{
-    font-size: 80px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    margin-left: 65px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.third-text{
+    padding-bottom: 15px;
+    font-size: 27px;
+    margin-right:115px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .text-typing{
     position: fixed;
-    font-size:60px
+   
+    font-size: 40px;
+    margin: 5px 0;
+    padding-left: 50px;
 }
 
