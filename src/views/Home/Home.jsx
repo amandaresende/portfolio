@@ -10,21 +10,30 @@ const Home = props => (
             <span className="first-text">Olá, meu nome é </span> <br />
             <span className="second-text">Amanda</span> <br/>
             <span className="third-text">eu sou </span>
-        </div>
-        <div className="text-home-second">
-            
-        </div>
 
-        {/* <ReactTypingEffect 
+            <ReactTypingEffect 
                 className="text-typing" 
-                text={["Desenvolvedora", "Front-End"]} 
-            />  */}
+                text={["Desenvolvedora", "Front-End"]}
+                 speed={[500]}
+                 eraseDelay={[90]}
+                 eraseSpeed={[200]}
+                 typingDelay={[150]}
+
+                /> 
+                <Girl className="img-home"></Girl>
 
 
-        {/* <Girl className="img-home" /> */}
+        </div>
+       
+
+
+
+
     </div>
 
 
 )
 
 export default Home
+
+ {/* <Girl className="img-home" /> */}
