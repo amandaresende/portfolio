@@ -9,14 +9,19 @@
 }
 
 .text-about{
-    display: flex;
-    flex-direction: column;
+    align-items: center;
     font-family: 'Sarala';
     margin-left:30px ;
 }
 
 .text-about-about{
     text-align: center;
+    
+}
+
+.p{
+
+    flex-wrap: wrap;
 }
 
 .first-text-about {
@@ -50,6 +55,12 @@
     font-weight: 500;
     border: 2px solid #824df5e8;;
     transition: all 0.3s ease;
+
+    position: absolute; 
+    top:55%; 
+    left:60%;
+
+   
 
     border-radius: 25px;
     margin: 10px;

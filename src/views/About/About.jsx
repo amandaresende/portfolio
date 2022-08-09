@@ -1,5 +1,6 @@
 import './About.css'
 import React from 'react'
+/* import { ReactComponent as Curriculo } from '../../assets/Curriculo/Curriculo-Amanda-Resende' */
 
 
 
@@ -17,7 +18,9 @@ const About = props => (
 
             <div class="text-about">
                 <div class="text-about-about">Sou Amanda e sou <span>Desenvolvedora</span> </div>
-                <p>Iniciei minha vida profissional trabalhando na area de atendimento ao cliente.
+                <p>iniciei minha carreira em Administração mas me
+                encontrei na tecnologia, hoje busco uma oportunidade para pôr em prática meus
+                estudos em Frontend e adquirir a experiência que o mercado demanda.
                 </p>
                 <a href="CV - Amanda Resende.pdf" class="btn" >Download CV</a>
             </div>
