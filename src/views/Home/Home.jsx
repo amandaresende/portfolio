@@ -20,11 +20,9 @@ const Home = props => (
                  typingDelay={[150]}
 
                 /> 
-                <Girl className="img-home"></Girl>
-
-
+                
         </div>
-       
+       <Girl className="img-home"></Girl>
 
 
 

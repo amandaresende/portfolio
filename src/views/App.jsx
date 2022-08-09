@@ -11,8 +11,8 @@ import Footer from '../components/Footer/Footer'
 const App = props => (
     <div className="App">
         <BrowserRouter>
-            <Menu />
-            <Content />
+            <Menu/>
+            <Content/>
             <Footer/>
         </BrowserRouter>
     </div>
