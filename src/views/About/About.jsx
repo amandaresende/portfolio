@@ -17,11 +17,10 @@ const About = props => (
             <span className="background"></span>
 
             <div class="text-about">
-                <div class="text-about-about">Sou Amanda e sou <span>Desenvolvedora</span> </div>
-                <p>iniciei minha carreira em Administração mas me
-                encontrei na tecnologia, hoje busco uma oportunidade para pôr em prática meus
-                estudos em Frontend e adquirir a experiência que o mercado demanda.
-                </p>
+                <h1> Iniciei minha vida profissional com atendimento ao público, como vendedora e representante de atendimento,
+                     mas me encontrei na tecnologia, hoje busco uma oportunidade para pôr em prática meus estudos em Frontend 
+                     e adquirir a experiência que o mercado demanda.</h1>
+                
                 <a href="CV - Amanda Resende.pdf" class="btn" >Download CV</a>
             </div>
         </div>

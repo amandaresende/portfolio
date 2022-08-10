@@ -1,34 +1,6 @@
-.text-principal {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: rgb(255, 255, 255);
-    font-family: 'Sarala';
-    padding: 45px;
-    padding-top: 10px;
-}
-
-.text-about{
-    align-items: center;
-    font-family: 'Sarala';
-    margin-left:30px ;
-}
-
-.text-about-about{
-    text-align: center;
+.about{
+    font-family: 'Nunito', sans-serif;
     
-}
-
-.p{
-
-    flex-wrap: wrap;
-}
-
-.first-text-about {
-    font-size: 30px;
-    margin-top: 40px;
-    margin-bottom: 15px;
-    text-align: center;
 }
 
 .background {
@@ -42,6 +14,34 @@
     padding: 100px 90px 100px 90px;
 
 }
+
+.text-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    padding: 45px;
+    padding-top: 10px;
+}
+
+.text-about{
+   color:#fff;;
+    font-size: 10px;
+    
+
+}
+
+.first-text-about{
+    font-size: 30px;
+}
+
+h1{
+    font-weight: 400;
+    text-align: justify;
+    max-width: 850px;
+    margin-left: 55px;
+}
+    
 
 .algo {
     display: flex;
