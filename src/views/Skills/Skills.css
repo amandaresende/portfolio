@@ -1,6 +1,6 @@
 .text-principal {
     color: rgb(255, 255, 255);
-    font-family: 'Sarala';
+    font-family: 'Nunito', sans-serif;
     text-align: center;
     padding: 45px;
     padding-top: 10px;
@@ -33,7 +33,8 @@
 .text-skill{
     color: rgb(255, 255, 255);
     text-align:justify;
-    font-family: 'Sarala';
+    font-family: 'Nunito', sans-serif;
     margin: 15px;
     padding:25px;
+    font-size: 20px;
 }
