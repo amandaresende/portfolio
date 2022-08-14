@@ -2,15 +2,30 @@ import "./Projects.css";
 import React from "react";
 import Modal from "../../components/Modal/Modal";
 import { useState } from "react";
+import { projectsList } from "../../utills/projects";
 
 const Projects = (props) => {
-  const [openModal, setOpenModal] = useState(false);
+  const [modalState, setModalState] = useState({
+    open: false
+  });
 
-  const handlerOpenModal = () => {
-    setOpenModal(true);
+  const handlerOpenModal = (project) => {
+    setModalState({
+      open: true,
+      content: project.content,
+      heigth: project.heigth,
+      width: project.width
+    });
   };
+
   const handlerCloseModal = () => {
-    setOpenModal(false);
+    setModalState({
+      open: false
+    });
+  };
+
+  const openHtmlProject = (htmlProject) => {
+    window.open(htmlProject, "_blank");
   };
 
   return (
@@ -18,27 +33,22 @@ const Projects = (props) => {
       <h1> Projetos </h1>
       <div className="content-projects">
         <div className="algo">
-          <span
-            className="background"
-            onClick={() => {
-              window.open("/instagram.html", "_blank");
-            }}
-          ></span>
-          <span
-            className="background"
-            onClick={() => {
-              handlerOpenModal();
-            }}
-          ></span>
-          <span
-            className="background"
-            onClick={() => {
-              handlerOpenModal();
-            }}
-          ></span>
+          {projectsList.map((project) => (
+            <span
+              className="background"
+              onClick={() => {
+                project.page
+                  ? openHtmlProject(project.page)
+                  : handlerOpenModal(project);
+              }}
+            />
+          ))}
         </div>
       </div>
-      <Modal openModal={openModal} handlerCloseModal={handlerCloseModal} />
+      <Modal 
+        modalState={modalState} 
+        handlerCloseModal={handlerCloseModal} 
+      />
     </div>
   );
 };

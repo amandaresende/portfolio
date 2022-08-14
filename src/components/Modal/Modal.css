@@ -1,9 +1,9 @@
 .modal{
-    background-color: red;
+    background-color: rgb(202, 238, 233);
     display:block ;
     position: fixed;
-    width: 500px;
-    height: 500px;
+    height:360px;
+    width: 275px;
     left: 200px;
     top: 40px;
     color: black;

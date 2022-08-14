@@ -1,14 +1,22 @@
 import "./Modal.css";
 
-const Modal = ({ openModal, handlerCloseModal }) => {
+const Modal = ({ modalState, handlerCloseModal }) => {
   return (
     <div>
-      {openModal ? (
+      {modalState.open ? (
         <div className={"modal"}>
-          <button className="btn" onClick={() => handlerCloseModal()}>fechar</button>
+          <button 
+            className="btn"
+            onClick={
+                () => handlerCloseModal()
+            }
+          >
+            fechar
+          </button>
+          {modalState.content}
         </div>
       ) : (
-        <div></div>
+        <div/>
       )}
     </div>
   );
