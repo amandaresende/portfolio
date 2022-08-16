@@ -27,13 +27,17 @@
       
 }
 
-.modal{
-    background-color: white;
-    display: none;
-    position: fixed;
-    width: 200px;
-    height: 200px;
-    left: 200px;
-    top: 40px;
-    color: black;
+.image-projects{
+   display: flex;
+    flex-direction: column;
+    
+    max-width: 200px;
+    max-height: 200px;
+
+    justify-content: space-around;
 }
+
+.projects{
+    display: contents;
+}
+

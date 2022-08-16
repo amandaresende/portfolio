@@ -2,16 +2,17 @@ import "./Modal.css";
 
 const Modal = ({ modalState, handlerCloseModal }) => {
   return (
-    <div>
+    <div >
       {modalState.open ? (
-        <div className={"modal"}>
+        <div className={"modal"}
+        style={{width: modalState.width, height: modalState.height}}>
           <button 
-            className="btn"
+            className="btn-modal"
             onClick={
                 () => handlerCloseModal()
             }
           >
-            fechar
+            X
           </button>
           {modalState.content}
         </div>
