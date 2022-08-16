@@ -7,8 +7,8 @@
 }
 
 .content-projects {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    
     justify-content: space-around;
     align-items: center;
     height: 80%;
@@ -38,6 +38,10 @@
 }
 
 .projects{
-    display: contents;
+    display: grid;
+    grid-gap: .2rem;
+    grid-template-columns: 25% 25% 25% 25%;
+
+    justify-content: center;
 }
 

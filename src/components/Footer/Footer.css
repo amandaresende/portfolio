@@ -1,12 +1,8 @@
 .Footer{
-    position: absolute;
     bottom: 0;
     border-top: .4px solid #FFF2E7;
     width: 100%;
-    max-width: 1000vh;
-
     background-color: #537891;
-
 }
 
 .text-footer{

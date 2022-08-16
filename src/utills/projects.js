@@ -6,7 +6,7 @@ import netflix from "../assets/image/projeto-netflix.png"
 
 export const projectsList = [
     {
-        nome: "calculadoraReact",
+        nome: "Calculadora",
         gitHub: "github.com",
         content: <Calculator/>,
         image: calculadora,
@@ -24,6 +24,25 @@ export const projectsList = [
         gitHub: "link.com",
         page: "/instagram.html",
         image: instagram
+    },
+    {
+        nome: "Netflix",
+        gitHub: "https://github.com/amandaresende/projeto-netflix",
+        page: "https://github.com/amandaresende/projeto-netflix",
+        image:netflix
+    },
+
+    {
+        nome: "Netflix",
+        gitHub: "https://github.com/amandaresende/projeto-netflix",
+        page: "https://github.com/amandaresende/projeto-netflix",
+        image:netflix
+    },
+    {
+        nome: "Netflix",
+        gitHub: "https://github.com/amandaresende/projeto-netflix",
+        page: "https://github.com/amandaresende/projeto-netflix",
+        image:netflix
     },
     {
         nome: "Netflix",
