@@ -35,7 +35,7 @@ const Projects = (props) => {
       <div className="content-projects">
         <div className="projects">
           {projectsList.map((project) => (
-            <div>
+            <div >
               <p>{project.nome}</p>
               <img 
                 src={project.image}
