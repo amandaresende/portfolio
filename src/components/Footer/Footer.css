@@ -2,9 +2,13 @@
     width: 100%;
     background-color: #537891;
     padding-block: 1px;
-    
+    position: relative;
+    top: 100%;
     
 }
+
+    
+
 
 .text-footer{
         font-size: 15px;

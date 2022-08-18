@@ -49,5 +49,41 @@ export const projectsList = [
         gitHub: "https://github.com/amandaresende/projeto-netflix",
         page: "https://github.com/amandaresende/projeto-netflix",
         image:netflix
+    },
+    {
+        nome: "Netflix",
+        gitHub: "https://github.com/amandaresende/projeto-netflix",
+        page: "https://github.com/amandaresende/projeto-netflix",
+        image:netflix
+    },
+    {
+        nome: "Netflix",
+        gitHub: "https://github.com/amandaresende/projeto-netflix",
+        page: "https://github.com/amandaresende/projeto-netflix",
+        image:netflix
+    },
+    {
+        nome: "Netflix",
+        gitHub: "https://github.com/amandaresende/projeto-netflix",
+        page: "https://github.com/amandaresende/projeto-netflix",
+        image:netflix
+    },
+    {
+        nome: "Netflix",
+        gitHub: "https://github.com/amandaresende/projeto-netflix",
+        page: "https://github.com/amandaresende/projeto-netflix",
+        image:netflix
+    },
+    {
+        nome: "Netflix",
+        gitHub: "https://github.com/amandaresende/projeto-netflix",
+        page: "https://github.com/amandaresende/projeto-netflix",
+        image:netflix
+    },
+    {
+        nome: "Netflix",
+        gitHub: "https://github.com/amandaresende/projeto-netflix",
+        page: "https://github.com/amandaresende/projeto-netflix",
+        image:netflix
     }
 ]
