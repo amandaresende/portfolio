@@ -4,12 +4,8 @@
     text-align: center;
     padding: 45px;
     padding-top: 10px;
-}
 
-.content-projects {
-    scroll-behavior: auto;
-    justify-content: space-around;
-    align-items: center;
+    
 }
 
 
@@ -19,14 +15,21 @@
     margin-right: 5px;
     max-width: 200px;
     max-height: 200px;
-
-    
-
-    
+ 
 }
 
 .projects{
+    
     display:grid;
+    grid-template-areas:"content" "footer";
     grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    grid-area:content ;
+
 }
+
+.content-projects{
+    height: calc(100% - 27px - 78px);
+}
+
 

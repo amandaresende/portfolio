@@ -7,7 +7,7 @@ import netflix from "../assets/image/projeto-netflix.png"
 export const projectsList = [
     {
         nome: "Calculadora",
-        gitHub: "github.com",
+        gitHub: "https://github.com/amandaresende/calculadora-react",
         content: <Calculator/>,
         image: calculadora,
         heigth: 320,
@@ -15,7 +15,7 @@ export const projectsList = [
     },
     {
         nome: "Snake Game",
-        gitHub: "github.com",
+        gitHub: "https://github.com/amandaresende/jogo-da-cobrinha",
         content: <p> Lorem</p>,
         image: snakeGame,
     },
@@ -29,61 +29,6 @@ export const projectsList = [
         nome: "Netflix",
         gitHub: "https://github.com/amandaresende/projeto-netflix",
         page: "/netflix/netflix.html",
-        image:netflix
-    },
-
-    {
-        nome: "Netflix",
-        gitHub: "https://github.com/amandaresende/projeto-netflix",
-        page: "https://github.com/amandaresende/projeto-netflix",
-        image:netflix
-    },
-    {
-        nome: "Netflix",
-        gitHub: "https://github.com/amandaresende/projeto-netflix",
-        page: "https://github.com/amandaresende/projeto-netflix",
-        image:netflix
-    },
-    {
-        nome: "Netflix",
-        gitHub: "https://github.com/amandaresende/projeto-netflix",
-        page: "https://github.com/amandaresende/projeto-netflix",
-        image:netflix
-    },
-    {
-        nome: "Netflix",
-        gitHub: "https://github.com/amandaresende/projeto-netflix",
-        page: "https://github.com/amandaresende/projeto-netflix",
-        image:netflix
-    },
-    {
-        nome: "Netflix",
-        gitHub: "https://github.com/amandaresende/projeto-netflix",
-        page: "https://github.com/amandaresende/projeto-netflix",
-        image:netflix
-    },
-    {
-        nome: "Netflix",
-        gitHub: "https://github.com/amandaresende/projeto-netflix",
-        page: "https://github.com/amandaresende/projeto-netflix",
-        image:netflix
-    },
-    {
-        nome: "Netflix",
-        gitHub: "https://github.com/amandaresende/projeto-netflix",
-        page: "https://github.com/amandaresende/projeto-netflix",
-        image:netflix
-    },
-    {
-        nome: "Netflix",
-        gitHub: "https://github.com/amandaresende/projeto-netflix",
-        page: "https://github.com/amandaresende/projeto-netflix",
-        image:netflix
-    },
-    {
-        nome: "Netflix",
-        gitHub: "https://github.com/amandaresende/projeto-netflix",
-        page: "https://github.com/amandaresende/projeto-netflix",
         image:netflix
     }
 ]

@@ -9,6 +9,7 @@ body {
 .text {
     font-weight: 300;
     font-size: 5rem;
+    text-align: center;
 }
 
 .input {
@@ -17,10 +18,3 @@ body {
     margin: 20px 0px;
 }
 
-.center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
