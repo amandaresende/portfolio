@@ -7,11 +7,9 @@
 }
 
 .content-projects {
-    display: grid;
     scroll-behavior: auto;
     justify-content: space-around;
     align-items: center;
-    height: 80%;
 }
 
 

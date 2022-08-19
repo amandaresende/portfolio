@@ -21,14 +21,14 @@ export const projectsList = [
     },
     {
         nome: "Instagram",
-        gitHub: "link.com",
-        page: "/instagram.html",
+        gitHub: "https://github.com/amandaresende/projeto-instagram",
+        page: "/instagram/instagram.html",
         image: instagram
     },
     {
         nome: "Netflix",
         gitHub: "https://github.com/amandaresende/projeto-netflix",
-        page: "https://github.com/amandaresende/projeto-netflix",
+        page: "/netflix/netflix.html",
         image:netflix
     },
 

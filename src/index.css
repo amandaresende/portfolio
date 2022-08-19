@@ -3,7 +3,7 @@ body {
     font-family: 'Montserrat', sans-serif;
    /*  background: linear-gradient(to top, #c2d0da, #575292);  */
     background-color: #79A7D6;
-    
+    display: block;
 }
 
 .text {
