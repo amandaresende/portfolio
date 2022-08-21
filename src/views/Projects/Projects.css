@@ -1,35 +1,28 @@
 .titulo-projects {
-    color: rgb(255, 255, 255);
-    font-family: 'Sarala';
-    text-align: center;
-    padding: 45px;
-    padding-top: 10px;
-
-    
+  color: rgb(255, 255, 255);
+  font-family: "Sarala";
+  text-align: center;
+  padding: 45px;
+  padding-top: 10px;
 }
 
-
-.image-projects{
-   display: flex;
-    flex-direction: column;
-    margin-right: 5px;
-    max-width: 200px;
-    max-height: 200px;
- 
+.image-projects {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+  margin-inline: auto;
+  max-height: 200px;
 }
 
-.projects{
-    
-    display:grid;
-    grid-template-areas:"content" "footer";
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 33.33% 33.33% 33.33%;
-    grid-area:content ;
-
+.projects {
+  display: grid;
+  grid-template-areas: "content" "footer";
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 33.33% 33.33% 33.33%;
+  grid-area: content;
 }
 
-.content-projects{
-    height: calc(100% - 27px - 78px);
+.content-projects {
+  height: calc(100% - 27px - 78px);
 }
-
-

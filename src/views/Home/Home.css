@@ -1,56 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Righteous&family=Sarala:wght@400;700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 .home {
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 .img-home {
-    width: 400px;
-    height: 400px;
-    margin: auto;
-    padding-bottom:100px;
-    
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  padding-bottom: 100px;
 }
 
 .text-home {
-    padding-top:10%;
-    display: block;
-    justify-content: center;
-    color: #d7e8fa;
+  padding-top: 10%;
+  display: block;
+  justify-content: center;
+  color: #d7e8fa;
 }
 
-.first-text{
-    padding-top: 100px;
-    font-size: 27px;
-    margin-left: 10px;
-    font-family: 'Nunito', sans-serif;
+.first-text {
+  padding-top: 100px;
+  font-size: 27px;
+  margin-left: 10px;
+  font-family: "Nunito", sans-serif;
 }
 
-.second-text{
-    font-size: 75px;
-    font-weight: 700;
-    margin-left: 92px;
-    font-family: 'Nunito', sans-serif;
+.second-text {
+  font-size: 75px;
+  font-weight: 700;
+  margin-left: 92px;
+  font-family: "Nunito", sans-serif;
 }
 
-.third-text{
-    padding-bottom: 15px;
-    font-size: 27px;
-    margin-right:115px;
-    font-family: 'Nunito', sans-serif;
+.third-text {
+  padding-bottom: 15px;
+  font-size: 27px;
+  margin-right: 115px;
+  font-family: "Nunito", sans-serif;
 }
 
-.text-typing{
-    position: absolute;
-    padding-top: -50px;
-    margin-top: -5px;
-    margin-left: -108px;
-    font-size: 40px;
-    font-weight: 700;
-    color:blueviolet;
+.text-typing {
+  position: absolute;
+  padding-top: -50px;
+  margin-top: -5px;
+  margin-left: -108px;
+  font-size: 40px;
+  font-weight: 700;
+  color: blueviolet;
 }
-

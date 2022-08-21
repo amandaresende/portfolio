@@ -16,7 +16,7 @@ export const projectsList = [
     {
         nome: "Snake Game",
         gitHub: "https://github.com/amandaresende/jogo-da-cobrinha",
-        content: <p> Lorem</p>,
+        page: "/snakeGame/snakeGame.html",
         image: snakeGame,
     },
     {

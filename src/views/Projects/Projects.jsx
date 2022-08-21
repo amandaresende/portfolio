@@ -4,10 +4,9 @@ import Modal from "../../components/Modal/Modal";
 import { useState } from "react";
 import { projectsList } from "../../utills/projects";
 
-
 const Projects = (props) => {
   const [modalState, setModalState] = useState({
-    open: false
+    open: false,
   });
 
   const handlerOpenModal = (project) => {
@@ -15,13 +14,13 @@ const Projects = (props) => {
       open: true,
       content: project.content,
       heigth: project.heigth,
-      width: project.width
+      width: project.width,
     });
   };
 
   const handlerCloseModal = () => {
     setModalState({
-      open: false
+      open: false,
     });
   };
 
@@ -35,28 +34,29 @@ const Projects = (props) => {
       <div className="content-projects">
         <div className="projects">
           {projectsList.map((project) => (
-            <div >
+            <div>
               <p>{project.nome}</p>
-              <img 
+              <img
                 src={project.image}
                 className="image-projects"
                 onClick={() => {
                   project.page
                     ? openExternalLink(project.page)
                     : handlerOpenModal(project);
-                }} 
-                />
-                <a onClick={() => {
-                  openExternalLink(project.gitHub)
-                }}>github</a>
+                }}
+              />
+              <a
+                onClick={() => {
+                  openExternalLink(project.gitHub);
+                }}
+              >
+                github
+              </a>
             </div>
           ))}
         </div>
       </div>
-      <Modal
-        modalState={modalState} 
-        handlerCloseModal={handlerCloseModal} 
-      />
+      <Modal modalState={modalState} handlerCloseModal={handlerCloseModal} />
     </div>
   );
 };
