@@ -1,6 +1,6 @@
 .titulo-projects {
-  color: rgb(255, 255, 255);
-  font-family: "Sarala";
+  color: rgb(10, 10, 10);
+  font-weight: bold;
   text-align: center;
   padding: 45px;
   padding-top: 10px;
@@ -13,6 +13,7 @@
   margin-right: 5px;
   margin-inline: auto;
   max-height: 200px;
+  padding-bottom: 15px;
 }
 
 .projects {
@@ -25,4 +26,16 @@
 
 .content-projects {
   height: calc(100% - 27px - 78px);
+}
+
+.project{
+  display: block;
+}
+
+.link{
+ 
+ border: 2px solid #4286f4;
+ border-radius: 15px;
+ padding-inline: 10px;
+
 }

@@ -34,7 +34,7 @@ const Projects = (props) => {
       <div className="content-projects">
         <div className="projects">
           {projectsList.map((project) => (
-            <div>
+            <div className="project">
               <p>{project.nome}</p>
               <img
                 src={project.image}
@@ -45,12 +45,12 @@ const Projects = (props) => {
                     : handlerOpenModal(project);
                 }}
               />
-              <a
+              <a className="link"
                 onClick={() => {
                   openExternalLink(project.gitHub);
                 }}
               >
-                github
+                GitHub
               </a>
             </div>
           ))}

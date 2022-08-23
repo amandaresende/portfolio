@@ -10,7 +10,7 @@
     margin: 10px;
 
     background-color: #fff;
-    color: #000;
+    Color: rgb(10, 10, 10);;
     padding: 100px 90px 100px 90px;
 
 }
@@ -19,13 +19,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: rgb(255, 255, 255);
+    color: rgb(10, 10, 10);
     padding: 45px;
     padding-top: 10px;
 }
 
 .text-about{
-   color:#fff;;
+    color: rgb(10, 10, 10);
     font-size: 10px;
     
 
@@ -33,6 +33,7 @@
 
 .first-text-about{
     font-size: 30px;
+    color: rgb(10, 10, 10);
 }
 
 h1{
@@ -40,6 +41,7 @@ h1{
     text-align: justify;
     max-width: 850px;
     margin-left: 55px;
+    
 }
     
 
@@ -49,11 +51,11 @@ h1{
 
 .btn{        
     display: inline-block;
-    background: #824df5e8;;
+    background: #f7cae4;;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
-    border: 2px solid #824df5e8;;
+    border: 2px solid #f7cae4;
     transition: all 0.3s ease;
 
     position: absolute; 

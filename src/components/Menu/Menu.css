@@ -7,13 +7,13 @@
 .titulo {
     margin-right: 400px;
     font-family: 'Sarala', sans-serif;
-    /* color: rgb(54, 163, 235); */
-    color: rgb(225, 243, 255);
+    color: rgb(10, 10, 10);
     font-weight: 300;
     font-size: 22px;
 }
 
 .Menu {
+    background-color: #f7cae4;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -24,7 +24,10 @@
 
 .Menu nav a {
     font-family: 'Sarala', sans-serif;
-    color: rgb(244, 250, 253);
+    border:1px solid #79A7D6;
+    border-radius: 10px;
+    padding-inline: 5px;
+    color: rgb(10, 10, 10);
     font-weight: 400;
     font-size: 18px;
 }
