@@ -19,7 +19,7 @@ const Skills = props => (
                     <p>
                         No momento estou me aplicando ao desenvolvimento de projetos que envolvem as linguagens de programação
                         Front-End como o JavaScript e React. Todos os projetos têm sido compartilhados no meu <a href="https://github.com/amandaresende"class="social-network"> <b>GitHub</b> </a> 
-                        <a href="https://github.com/amandaresende"/>
+                        <a href="https://github.com/amandaresende" />
                     </p>
                 </div>
 

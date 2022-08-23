@@ -30,7 +30,6 @@ const Projects = (props) => {
 
   return (
     <div className="titulo-projects">
-      <h1> Projetos </h1>
       <div className="content-projects">
         <div className="projects">
           {projectsList.map((project) => (

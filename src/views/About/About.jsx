@@ -15,7 +15,6 @@ const About = (props) => (
 
       <div className="text-about">
         <h1>
-          {" "}
           Iniciei minha vida profissional com atendimento ao público, como
           vendedora e representante de atendimento, mas me encontrei na
           tecnologia, hoje busco uma oportunidade para pôr em prática meus

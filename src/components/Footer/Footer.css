@@ -1,23 +1,16 @@
-.Footer{
-    background-color: #79A7D6;
-    grid-area: footer;
-
-    padding-block: 1px;
-    position: relative;
-    width: 100%;
-  
-       
-
+.Footer {
+  background-color: #b7d3df;
+  grid-area: footer;
+  padding-block: 1px;
+  position: relative;
+  width: 100%;
 }
 
-.text-footer{
-    color: bisque; 
-
-    font-family: 'Nunito', sans-serif;
-    font-size: 9px;
-    font-weight: 400;
-
-    margin-inline: auto;
-
-    text-align: center;
+.text-footer {
+  color: rgb(10, 10, 10);
+  font-family: "Nunito", sans-serif;
+  font-size: 9px;
+  font-weight: 800;
+  margin-inline: auto;
+  text-align: center;
 }

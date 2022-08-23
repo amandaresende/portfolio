@@ -25,6 +25,3 @@ const Home = (props) => (
 
 export default Home;
 
-{
-  /* <Girl className="img-home" /> */
-}

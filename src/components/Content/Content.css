@@ -1,12 +1,8 @@
 .Content {
-    margin-bottom:0px;
-    border-top: .4px solid #79A7D6;
-    text-align: center;
-    justify-content:center;
-    align-items: center;
-    
-    height: calc(100% - 27px - 78px);
-    
-
-    
+  align-items: center;
+  border-top: 0.4px solid #c9bbcf;
+  height: calc(100% - 27px - 78px);
+  justify-content: center;
+  margin-bottom: 0px;
+  text-align: center;
 }
