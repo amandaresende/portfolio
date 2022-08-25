@@ -12,56 +12,52 @@
 }
 
 .btn {
-    display: inline-block;
-    background: #69779b;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-  
-    transition: all 0.3s ease;
-  
-    position: absolute;
-    top: 55%;
-    left: 60%;
-  
-    border-radius: 25px;
-    margin: 10px;
-    padding: 15px 35px;
-    border: none;
-    outline: none;
-  }
+  display: inline-block;
+  background: #69779b;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+
+  transition: all 0.3s ease;
+
+  position: absolute;
+  top: 55%;
+  left: 60%;
+
+  border-radius: 25px;
+  margin: 10px;
+  padding: 15px 35px;
+  border: none;
+  outline: none;
+}
 
 .text-principal {
-    color: rgb(10, 10, 10);
+  color: rgb(10, 10, 10);
   display: flex;
-  flex-direction: column;
+
   justify-content: center;
-  
+
   padding: 45px;
   padding-top: 10px;
 }
 
 .text-about {
   color: rgb(10, 10, 10);
-  font-size: 10px;
+  font-size: 9px;
+  font-family: "Nunito", sans-serif;
+  text-align: justify;
+  width: 40%;
 }
 
 .first-text-about {
-   color: rgb(10, 10, 10);
-   font-size: 30px;
- 
+  color: rgb(10, 10, 10);
+  font-size: 30px;
 }
 
 h1 {
   font-weight: 400;
-  
-  max-width: 850px;
-  margin-left: 55px;
-  text-align: justify;
 }
 
 .algo {
   display: flex;
 }
-
-

@@ -5,7 +5,7 @@ import curriculo from "../../assets/Curriculo/Curriculo-Amanda-Resende.pdf";
 const About = (props) => (
   <div className="about">
     <div className="text-principal">
-      <span className="first-text-about">Quem eu sou</span>
+      <span className="first-text-about">Sobre mim :)</span>
     </div>
 
     <div className="algo">
