@@ -3,6 +3,7 @@ import React from "react";
 import Modal from "../../components/Modal/Modal";
 import { useState } from "react";
 import { projectsList } from "../../utills/projects";
+import clsx from "clsx";
 
 const Projects = (props) => {
   const [modalState, setModalState] = useState({
@@ -31,7 +32,7 @@ const Projects = (props) => {
   return (
     <div className="titulo-projects">
       <div className="content-projects">
-        <div className="projects">
+        <div className={clsx("projects", modalState.open ? "blur" : "")}>
           {projectsList.map((project) => (
             <div className="project">
               <p>{project.nome}</p>

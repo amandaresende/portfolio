@@ -4,23 +4,13 @@
   display: block;
   left: 50%;
   margin-top: -48px; 
-  margin-left: -100px; 
+  margin-left: -125px; 
   padding-inline: 20px;
   padding-bottom: 20px;
   position: absolute;
   top: 30%;
   
 }
-
-.modal .blur{
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
-}
-
-
 
 .btn-modal {
   background: #9692af;

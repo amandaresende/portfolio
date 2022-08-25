@@ -11,8 +11,6 @@ const Modal = ({ modalState, handlerCloseModal }) => {
             onClick={
                 () => handlerCloseModal()
             }
-
-            
           >
             X
           </button>
