@@ -1,5 +1,6 @@
 .about {
   font-family: "Nunito", sans-serif;
+  
 }
 
 .background {
@@ -21,14 +22,18 @@
   transition: all 0.3s ease;
 
   position: absolute;
-  top: 55%;
-  left: 60%;
+  top:98%;
+  right: 75%;
 
   border-radius: 25px;
   margin: 10px;
   padding: 15px 35px;
   border: none;
   outline: none;
+}
+
+.img-about{
+  width: 190px;
 }
 
 .text-principal {
@@ -42,11 +47,20 @@
 }
 
 .text-about {
+  
+  position: absolute;
+  left: 50%;
+  
+}
+.text-about-about {
   color: rgb(10, 10, 10);
-  font-size: 9px;
+  font-size: 20px;
   font-family: "Nunito", sans-serif;
   text-align: justify;
-  width: 40%;
+  width: 80%;
+  font-weight: 400 !important;
+
+  
 }
 
 .first-text-about {
@@ -54,9 +68,7 @@
   font-size: 30px;
 }
 
-h1 {
-  font-weight: 400;
-}
+
 
 .algo {
   display: flex;
