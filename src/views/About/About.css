@@ -1,5 +1,6 @@
 .about {
   font-family: "Nunito", sans-serif;
+  justify-content: space-around;
   
 }
 
@@ -33,7 +34,8 @@
 }
 
 .img-about{
-  width: 190px;
+  display: inline;
+  width: 550px;
 }
 
 .text-principal {

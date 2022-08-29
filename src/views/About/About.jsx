@@ -1,7 +1,7 @@
 import "./About.css";
 import React from "react";
 import curriculo from "../../assets/Curriculo/Curriculo-Amanda-Resende.pdf";
-import { ReactComponent as Telemarkting } from "../../assets/image/telemarketing.svg";
+import { ReactComponent as Occupation } from "../../assets/image/occupation.svg";
 
 const About = (props) => (
   <div className="about">
@@ -9,18 +9,21 @@ const About = (props) => (
       <span className="first-text-about">Sobre mim :)</span>
     </div>
 
-    <div className="algo">
-      <span className="background"></span>
-      <span className="background"></span>
-      <Telemarkting className="img-about"></Telemarkting>
+    <div className="img-about">
+    
+      
+    </div>
 
+    <div className="algo">
+   
+<Occupation className="img-about"></Occupation>
       <div className="text-about">
         <h1 className="text-about-about">
           Iniciei minha vida profissional com atendimento ao público, como
           vendedora e representante de atendimento, mas me encontrei na
           tecnologia, hoje busco uma oportunidade para pôr em prática meus
           estudos em Frontend e adquirir a experiência que o mercado demanda.
-        </h1>
+        </h1> 
 
         <button
           onClick={() => window.open(curriculo, "_blank")}

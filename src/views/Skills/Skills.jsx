@@ -1,5 +1,7 @@
 import './Skills.css'
 import React from 'react'
+import { ReactComponent as Skill } from "../../assets/image/skills.svg";
+
 
 const Skills = props => (
     <div className="skills">
@@ -9,10 +11,9 @@ const Skills = props => (
         </div>
 
         <div className="icon-skills">
-            <span className="background"></span>
-            <span className="background"></span>
-            <span className="background"></span>
-            <span className="background"></span>
+
+        <Skill className="icon-skills"></Skill>
+
 
             <div className="text-skill">
                 <div className="text-skills-skills">
