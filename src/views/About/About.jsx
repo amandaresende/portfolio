@@ -9,10 +9,6 @@ const About = (props) => (
       <span className="first-text-about">Sobre mim :)</span>
     </div>
 
-    <div className="img-about">
-    
-      
-    </div>
 
     <div className="algo">
    

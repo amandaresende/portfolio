@@ -1,4 +1,6 @@
 .Footer {
+
+  
   background-color: #b7d3df;
   grid-area: footer;
   padding-block: 1px;
@@ -13,4 +15,16 @@
   font-weight: 800;
   margin-inline: auto;
   text-align: center;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    display: inline-block;
+    position: relative;
+    width: 100%;;
+    padding-bottom: 5px;
+  }
+
+  
 }

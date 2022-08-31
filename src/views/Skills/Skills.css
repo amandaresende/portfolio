@@ -3,6 +3,7 @@ a{
 }
 .text-principal {
   color: rgb(10, 10, 10);
+  font-family: "Nunito", sans-serif;
   padding: 45px;
   padding-top: 10px;
   text-align: center;
@@ -16,26 +17,30 @@ a{
   justify-content: space-around;
 }
 
-.background {
-  background-color: #fff;
-  color: #000;
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-  padding: 60px 60px 60px 60px;
+.first-text-skill{
+  align-items: center;
+  color: #69779B;
+  font-size: 30px;
+  font-weight: 500;
 }
 
 .icon-skills {
   display: flex;
+ 
+  width: 95%;
 }
 
-.text-skill {
+.skills{
+  padding-top: 5px;
+}
+
+.text-skills-skills {
+
   color: rgb(10, 10, 10);
-
-  font-family: "Nunito", sans-serif;
   font-size: 20px;
-  margin: 15px;
-  padding: 25px;
-
-  text-align: justify;
+  left:70% ;
+  margin: 10px;
+  padding-top: 15px;
+  text-align:justify;
+  width: 85%;
 }

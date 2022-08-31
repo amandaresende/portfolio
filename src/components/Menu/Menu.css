@@ -9,13 +9,13 @@
   font-family: "Sarala", sans-serif;
   font-size: 30px;
   font-weight: 300;
-  margin-right: 400px;
+  margin-bottom: 1rem;
 }
 
 .Menu {
-  align-items: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   height: 30px;
   justify-content: space-around;
   padding: 24px;
@@ -39,4 +39,14 @@
 
 .Menu nav a:hover {
   background: #3f3e3e20;
+}
+
+@media screen and (min-width: 1024px) {
+  .Menu {
+      flex-direction: row;
+      justify-content: space-between;
+      
+
+      
+  }
 }
