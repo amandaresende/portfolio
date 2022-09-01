@@ -34,7 +34,7 @@
 }
 
 .img-about{
-  position: relative;
+  position: absolute;
   width: 550px;
 }
 
@@ -49,10 +49,9 @@
 }
 
 .text-about {
-  
-  position: absolute;
+  position: relative;
   left: 50%;
-  
+  width: 60%;
 }
 .text-about-about {
   color: rgb(10, 10, 10);
@@ -70,8 +69,6 @@
   font-size: 30px;
 }
 
-
-
 .algo {
   display: flex;
 }
@@ -79,11 +76,19 @@
 @media screen and (max-width: 1024px) {
   
   .algo{
-    align-items: center;
+    width: 100%;
     display: block;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+    justify-content: center;
+    
+    
   }
 
   .about{
+    justify-content: space-between;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -93,33 +98,46 @@
   }
 
   .btn{
+    margin: auto;
     border-radius: 15px;
-    margin: 5px;
     padding: 5px 15px;
     font-size: 12px;
-
   }
 
+.first-text-about{
+  padding-top: 30px;
+  font-size: 22px;
+}
+
   .text-about{
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    flex-wrap: wrap;
+    font-size: 25px;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+   
+    
+   
+    
     
   }
 
   .text-about-about{
-    display: flex;
-    flex-direction: column;
-    font-size: 12px;
+    padding-top: 5px;
+    font-size: 15px;
+    
+    
+    width: 100%;
+     
+     left: -85%;
+    align-items: center;
   }
 
   .img-about{
-    display: flex;
-    flex-direction: column;
+    display:flex;
+   
+    width:65%;
+    margin-left: 23%;
     
-    width: 70%;
-    align-items: center;
   }
 
 

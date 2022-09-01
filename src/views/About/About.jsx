@@ -21,10 +21,10 @@ const About = (props) => (
           estudos em Frontend e adquirir a experiência que o mercado demanda.
         </h1> 
 
-        <button
+        <button className="btn"
           onClick={() => window.open(curriculo, "_blank")}
           href="CV - Amanda Resende.pdf"
-          className="btn"
+          
         >
           Download
         </button>

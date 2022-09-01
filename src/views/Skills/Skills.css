@@ -44,3 +44,32 @@ a{
   text-align:justify;
   width: 85%;
 }
+
+@media screen and (max-width: 1024px){
+  .skills{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .icon-skills{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .first-text-skill{
+    padding-top: 30px;
+    font-size: 22px;
+  }
+  .text-skills-skills{
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+  }
+}
