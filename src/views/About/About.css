@@ -71,6 +71,9 @@
 
 .algo {
   display: flex;
+  width: 82%;
+  
+  margin: auto;
 }
 
 @media screen and (max-width: 1024px) {
@@ -114,11 +117,7 @@
     align-items: center;
     margin-left: 25%;
     margin-right: 25%;
-   
-    
-   
-    
-    
+ 
   }
 
   .text-about-about{

@@ -7,14 +7,11 @@ const Skills = props => (
     <div className="skills">
         <div className="text-principal">
             <span className="first-text-skill">Minhas Habilidades</span>
-
         </div>
 
         <div className="icon-skills">
 
         <Skill className="icon-skills"></Skill>
-
-
             <div className="text-skill">
                 <div className="text-skills-skills">
                     <p>
