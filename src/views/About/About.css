@@ -76,7 +76,7 @@
   margin: auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   
   .algo{
     width: 100%;
@@ -134,7 +134,7 @@
   .img-about{
     display:flex;
    
-    width:65%;
+    width:35%;
     margin-left: 23%;
     
   }

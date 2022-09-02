@@ -47,6 +47,7 @@ a{
 
 @media screen and (max-width: 1024px){
   .skills{
+    gap:1px;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
