@@ -18,9 +18,9 @@
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 520px) {
   .footer {
-  
+  padding: auto;
   }
 
   

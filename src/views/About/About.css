@@ -24,7 +24,7 @@
 
   position: absolute;
   top:98%;
-  right: 75%;
+  right: 70%;
 
   border-radius: 25px;
   margin: 10px;
@@ -41,8 +41,7 @@
 .text-principal {
   color: rgb(10, 10, 10);
   display: flex;
-
-  justify-content: center;
+  flex-direction: row;
 
   padding: 45px;
   padding-top: 10px;
@@ -50,8 +49,8 @@
 
 .text-about {
   position: relative;
-  left: 50%;
-  width: 60%;
+  left: 10%;
+  width: 100%;
 }
 .text-about-about {
   color: rgb(10, 10, 10);
@@ -60,8 +59,9 @@
   text-align: justify;
   width: 80%;
   font-weight: 400 !important;
-
   
+  font-weight: 400 ;
+
 }
 
 .first-text-about {
@@ -74,9 +74,10 @@
   width: 82%;
   
   margin: auto;
+  
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   
   .algo{
     width: 100%;
@@ -86,6 +87,7 @@
     margin-right: 50px;
     align-items: center;
     justify-content: center;
+    
     
     
   }
@@ -112,21 +114,18 @@
   font-size: 22px;
 }
 
-  .text-about{
-    font-size: 25px;
-    align-items: center;
-    margin-left: 25%;
-    margin-right: 25%;
- 
-  }
+  
 
   .text-about-about{
-    padding-top: 5px;
-    font-size: 15px;
-    
+    font-size: 13px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+   
     
     width: 100%;
-     
+
      left: -85%;
     align-items: center;
   }
@@ -135,10 +134,43 @@
     display:flex;
    
     width:35%;
-    margin-left: 23%;
+    margin-left: 2%;
     
   }
 
 
   
+}
+
+@media screen and (max-width: 720px){
+  .about{
+    gap:1px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .algo{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .text-about{
+   display: block;
+   left: unset;
+   width: unset;
+  }
+  .btn{
+    align-items: center;
+    margin-top: center;
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-size: 12px;
+  }
+  .text-about-about{
+    width: 100%;
+  }
 }

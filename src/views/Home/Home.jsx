@@ -7,9 +7,8 @@ import ReactTypingEffect from "react-typing-effect";
 const Home = (props) => (
   <div className="home">
     <div className="text-home">
-      <span className="first-text">Olá, meu nome é </span> <br />
-      <span className="second-text">Amanda</span> <br />
-      <span className="third-text">eu sou </span>
+      <span className="first-text">Olá, meu nome é Amanda</span> 
+      <span className="third-text"> e eu sou </span>
       <ReactTypingEffect
         className="text-typing"
         text={["Desenvolvedora", "Front-End"]}

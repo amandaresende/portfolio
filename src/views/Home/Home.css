@@ -22,7 +22,7 @@
 .first-text {
   padding-top: 100px;
   font-size: 27px;
-  margin-left: 10px;
+  margin-left: 31%;
 }
 
 .second-text {
@@ -34,16 +34,17 @@
 .third-text {
   padding-bottom: 15px;
   font-size: 27px;
-  margin-right: 115px;
+  margin-right: 111px;
   
 }
 
 .text-typing {
   position: absolute;
-  padding-top: -50px;
+  
   margin-top: -5px;
   margin-left: -108px;
-  font-size: 40px;
+  margin-right: 18px;
+  font-size: 36px;
   font-weight: 700;
   color: #69779B; 
 }
@@ -57,15 +58,24 @@
 
   }
   .img-home{
+    padding-bottom: 50%;
     width: 50%;
     
   }
   .text-typing{
     position: center;
-    font-size: 32px;
+    font-size: 27px;
+    padding-bottom: -18px;
   }
   .text-home{
     margin-right: 10%;
     text-align: center;
+  }
+  .first-text{
+    font-size: 23px;
+    margin-left: 25px;
+  }
+  .second-text{
+    font-size: 23px;
   }
 }

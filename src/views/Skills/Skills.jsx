@@ -11,7 +11,7 @@ const Skills = props => (
 
         <div className="icon-skills">
 
-        <Skill className="icon-skills"></Skill>
+        <Skill ></Skill>
             <div className="text-skill">
                 <div className="text-skills-skills">
                     <p>

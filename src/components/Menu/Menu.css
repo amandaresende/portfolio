@@ -41,7 +41,16 @@
   background: #3f3e3e20;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
+  .Menu {
+      flex-direction: row;
+      justify-content: space-around;
+     
+
+      
+  }
+}
+/* @media screen and (min-width: 1024px) {
   .Menu {
       flex-direction: row;
       justify-content: space-between;
@@ -49,4 +58,4 @@
 
       
   }
-}
+} */
