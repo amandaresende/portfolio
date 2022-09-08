@@ -24,7 +24,7 @@ const About = (props) => (
           onClick={() => window.open(curriculo, "_blank")}
           href="CV - Amanda Resende.pdf"
         >
-          Download Currículo
+          Baixar Currículo
         </button>
       </div>
     </div>

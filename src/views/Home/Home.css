@@ -51,7 +51,7 @@
 
 @media screen and (max-width: 1024px){
   .home{
-    padding-top: 4%;
+    padding-top: 6%;
     display: flex;
     flex-direction: column;
     
@@ -59,13 +59,13 @@
   }
   .img-home{
     padding-bottom: 50%;
-    width: 50%;
+    width: 45%;
     
   }
   .text-typing{
     position: center;
     font-size: 27px;
-    padding-bottom: -18px;
+    padding-top:5px;
   }
   .text-home{
     margin-right: 10%;
