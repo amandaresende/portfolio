@@ -74,3 +74,24 @@ a{
     text-align: justify;
   }
 }
+@media screen and (max-width: 480px){
+  .icon-skills{
+    width: 69%;
+  }
+  .first-text-skill{
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 24px;
+  }
+  .text-skills-skills{
+    width: 100%;
+    font-size:16px;
+    align-items: center;
+    margin-left: 3px;
+  }
+  .skills{
+    align-items: center;
+    width: 100%;
+  }
+}
