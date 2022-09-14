@@ -47,22 +47,24 @@ a{
 
 @media screen and (max-width: 1024px){
   .skills{
-    gap:1px;
-    display:flex;
-    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    
   }
   .icon-skills{
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 80%;
+    width: 42%;
     align-items: center;
     margin-left: 50px;
     margin-right: 50px;
   }
   .first-text-skill{
-    padding-top: 30px;
     font-size: 22px;
   }
   .text-skills-skills{
@@ -72,6 +74,16 @@ a{
     align-items: center;
     justify-content: center;
     text-align: justify;
+    margin-top: -35px;
+  }
+  .text-skill{
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    width: 100%;
+     left: -85%;
+    align-items: center;
+    
   }
 }
 @media screen and (max-width: 480px){

@@ -80,7 +80,7 @@
 @media screen and (max-width: 1024px) {
   
   .algo{
-    width: 100%;
+    width: 55%;
     display: block;
     font-size: 15px;
     margin-left: 50px;
@@ -97,7 +97,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
+    padding-top: 15px;
     width: 100%;
     
   }
@@ -110,28 +110,28 @@
   }
 
 .first-text-about{
-  padding-top: 30px;
+  padding-top: 15px;
   font-size: 22px;
 }
 
   
 
   .text-about-about{
-    font-size: 16px;
+    font-size: 17px;
     width: 100%;
     align-items: center;
     justify-content: center;
     text-align: justify;
     width: 100%;
-
      left: -85%;
     align-items: center;
+    padding-bottom:6px;
   }
 
   .img-about{
     display:flex;
-   margin-top: 12px;
-    width:40%;
+    margin-top: 12px;
+    width:5%;
     margin-left: 2%;
     
   }
