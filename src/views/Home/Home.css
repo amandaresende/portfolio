@@ -81,12 +81,14 @@
 }
 @media screen and (max-width: 480px){
   .home{
+    display: flex;
+    flex-direction: column;
     width: 100%;
   }
   .img-home{
     padding-bottom: 15%;
-    width: 60%;
-    
+    width: 80%;
+    align-items: center;
   }
   .third-text{
     font-size: 20px;
