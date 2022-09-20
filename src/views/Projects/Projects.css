@@ -1,3 +1,7 @@
+.blur {
+  filter: blur(5px);
+}
+
 .content-projects {
   height: calc(100% - 27px - 78px);
 }
@@ -39,69 +43,68 @@
   text-align: center;
 }
 
-.blur {
-  filter: blur(5px);
-}
+
 
 @media screen and (max-width: 1024px) {
-  .projects{
+.image-projects{
+    max-height: 210px;
+  }
+.projects{
     display: grid;
     grid-area: content;
-    
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 50% ;
       
   }
-  .image-projects{
-    max-height: 210px;
-  }
+
 }
 
 @media screen and (max-width: 480px){
-  .projects{
-    display: grid;
-    grid-area: content;
-    grid-template-columns: 40% 50%;
-    grid-template-rows: 45% 45%;
-    justify-content: space-between;
-    justify-items: center;
-    align-content: center;
-    
-}
 .image-projects{
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  margin-right: 5px;
-  margin-inline: auto;
-  max-height: 145px;
-  padding-bottom: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    margin-inline: auto;
+    max-height: 145px;
+    padding-bottom: 20px;
+  }
+
+.projects{
+  align-content: center;
+  display: grid;
+  grid-area: content;
+  grid-template-columns: 40% 50%;
+  grid-template-rows: 45% 45%;
+  justify-content: space-between;
+  justify-items: center; 
 }
 }
 
 @media screen and (max-width: 720px){
-  .projects{
-    display: grid;
-    grid-area: content;
-    grid-template-areas: "content" "footer";
-    grid-template-columns: 35% 35% ;
-    grid-template-rows: 49% 49%;
-}
+.image-projects{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    margin-inline: auto;
+    max-height: 145px;
+    padding-bottom: 23px;
+  } 
+
 .link {
   border-radius: 15px;
   padding-inline: 10px;
 }
+
+.projects{
+  display: grid;
+  grid-area: content;
+  grid-template-areas: "content" "footer";
+  grid-template-columns: 35% 35% ;
+  grid-template-rows: 49% 49%;
+}
 .titulo-projects{
   font-size: 18px;
 }
-.image-projects{
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  margin-right: 5px;
-  margin-inline: auto;
-  max-height: 145px;
-  padding-bottom: 23px;
-}
-
 }

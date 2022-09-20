@@ -8,7 +8,7 @@ const Home = (props) => (
   <div className="home">
     <div className="text-home">
       <p className="first-text">Olá, meu nome é Amanda</p> 
-      <p className="seconddd-text">sou</p>
+      <p className="second-text">sou</p>
       <ReactTypingEffect
         className="text-typing"
         text={["Desenvolvedora", "Front-End"]}

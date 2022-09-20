@@ -1,13 +1,6 @@
 a{
     color: #69779B;
 }
-.text-principal {
-  color: rgb(10, 10, 10);
-  font-family: "Nunito", sans-serif;
-  padding: 45px;
-  padding-top: 10px;
-  text-align: center;
-}
 
 .content-skills {
   align-items: center;
@@ -26,7 +19,6 @@ a{
 
 .icon-skills {
   display: flex;
- 
   width: 95%;
 }
 
@@ -34,8 +26,15 @@ a{
   padding-top: 5px;
 }
 
-.text-skills-skills {
+.text-principal {
+  color: rgb(10, 10, 10);
+  font-family: "Nunito", sans-serif;
+  padding: 45px;
+  padding-top: 10px;
+  text-align: center;
+}
 
+.text-skills-skills {
   color: rgb(10, 10, 10);
   font-size: 20px;
   left:70% ;
@@ -46,64 +45,72 @@ a{
 }
 
 @media screen and (max-width: 1024px){
-  .skills{
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    
-  }
-  .icon-skills{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 42%;
-    align-items: center;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-  .first-text-skill{
-    font-size: 22px;
-  }
-  .text-skills-skills{
-    font-size: 16px;
-    margin-left: 50px;
-    margin-right: 50px;
-    align-items: center;
-    justify-content: center;
-    text-align: justify;
-    margin-top: -25px;
-    width: 100%;
-  }
-  .text-skill{
-    align-items: center;
-    justify-content: center;
-    text-align: justify;
-    width: 100%;
-     left: -85%;
-    align-items: center;
-    
-  }
+.first-text-skill{
+  font-size: 22px;
 }
+
+.icon-skills{
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 42%;
+}
+
+.skills{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+    
+}
+
+.text-skills-skills{
+    align-items: center;
+    font-size: 16px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -25px;
+    text-align: justify;
+    width: 100%;
+  }
+
+.text-skill{
+  align-items: center;
+  justify-content: center;
+  left: -85%;
+  text-align: justify;
+  width: 100%;
+ 
+}
+}
+
 @media screen and (max-width: 480px){
-  .icon-skills{
-    width: 69%;
+.first-text-skill{
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 24px;
+} 
+
+.icon-skills{
+  width: 69%;
+}
+
+.skills{
+  align-items: center;
+  width: 100%;
+}
+
+.text-skills-skills{
+  align-items: center;
+  font-size:16px;
+  margin-left: 3px;
+  width: 100%;
   }
-  .first-text-skill{
-    align-items: center;
-    text-align: center;
-    padding-top: 40px;
-    font-size: 24px;
-  }
-  .text-skills-skills{
-    width: 100%;
-    font-size:16px;
-    align-items: center;
-    margin-left: 3px;
-  }
-  .skills{
-    align-items: center;
-    width: 100%;
-  }
+
 }
